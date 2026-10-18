@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name | Data Analyst Portfolio</title>
+  <meta name="description" content="Entry-level Data Analyst and Power BI portfolio.">
+  <style>
+    :root {
+      --navy: #14213d;
+      --blue: #2563eb;
+      --light: #f4f7fb;
+      --text: #273449;
+      --muted: #64748b;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: var(--text);
+      background: var(--light);
+      line-height: 1.7;
+    }
+    header {
+      background: white;
+      padding: 18px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #e2e8f0;
+    }
+    header strong { color: var(--navy); }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    a { color: var(--blue); text-decoration: none; }
+    nav a { color: var(--text); font-size: 14px; }
+    .hero {
+      padding: 90px 8%;
+      background: var(--navy);
+      color: white;
+    }
+    .hero h1 {
+      font-size: clamp(36px, 6vw, 58px);
+      line-height: 1.15;
+      margin: 12px 0;
+    }
+    .hero p { max-width: 650px; color: #dbeafe; }
+    .tag { color: #93c5fd; font-weight: bold; }
+    .button {
+      display: inline-block;
+      padding: 11px 19px;
+      background: var(--blue);
+      color: white;
+      border-radius: 7px;
+      margin: 10px 10px 0 0;
+    }
+    .button.secondary {
+      background: transparent;
+      border: 1px solid #cbd5e1;
+    }
+    main { max-width: 1050px; margin: auto; padding: 20px; }
+    section { padding: 38px 0; scroll-margin-top: 20px; }
+    h2 { color: var(--navy); font-size: 28px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: white;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 22px;
+    }
+    .card h3 { margin-top: 0; color: var(--navy); }
+    .skill {
+      display: inline-block;
+      background: #e8efff;
+      color: #1d4ed8;
+      padding: 5px 10px;
+      border-radius: 5px;
+      margin: 4px;
+      font-size: 14px;
+    }
+    .muted { color: var(--muted); }
+    footer {
+      text-align: center;
+      padding: 28px;
+      background: var(--navy);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Your Name | Portfolio</strong>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="tag">ASPIRING DATA ANALYST</div>
+    <h1>Turning Data Into<br>Meaningful Insights.</h1>
+    <p>
+      I am an aspiring Data Analyst focused on Power BI,
+      business intelligence, data visualization, and
+      interactive reporting.
+    </p>
+    <a class="button" href="#projects">Explore My Projects</a>
+    <a class="button secondary" href="#contact">Contact Me</a>
+  </div>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="card">
+        <p>
+          I am an aspiring Data Analyst interested in transforming
+          data into actionable business insights. I am developing
+          my skills in Power BI, data preparation, DAX, and KPI
+          reporting through hands-on projects.
+        </p>
+        <p>
+          I am seeking an entry-level opportunity where I can apply
+          analytical thinking, learn from experienced professionals,
+          and support data-driven decision-making.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="card">
+        <span class="skill">Power BI</span>
+        <span class="skill">DAX</span>
+        <span class="skill">Power Query</span>
+        <span class="skill">Data Visualization</span>
+        <span class="skill">KPI Reporting</span>
+        <span class="skill">Data Cleaning</span>
+        <span class="skill">Excel - add if applicable</span>
+        <span class="skill">SQL - add if applicable</span>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <h3>COD Collection Dashboard</h3>
+          <p class="muted">Power BI · DAX · Power Query</p>
+          <p>
+            An interactive business reporting project designed
+            to track invoice counts, COD collections, outstanding
+            amounts, and collection performance.
+          </p>
+          <p>
+            <a href="https://app.powerbi.com/" target="_blank"
+               rel="noopener noreferrer">View Power BI service ↗</a>
+          </p>
+          <p class="muted">
+            Replace this link with your published report URL.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>More Projects Coming Soon</h3>
+          <p>
+            Future projects may explore sales analysis,
+            business performance, and customer trends.
+          </p>
+          <p class="muted">
+            Add a second card when you have another completed project.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <div class="card">
+        <h3>Your Degree or Qualification</h3>
+        <p>Your University or College</p>
+        <p class="muted">Graduation year: Add your year</p>
+      </div>
+      <h2>Certifications</h2>
+      <div class="card">
+        <p>Add your completed courses and certifications here.</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Let's Connect</h2>
+      <div class="card">
+        <p>
+          I am interested in entry-level Data Analyst,
+          Junior Power BI Developer, and Business Intelligence roles.
+        </p>
+        <p>Email: <a href="mailto:your.email@example.com">
+          your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/"
+          target="_blank" rel="noopener noreferrer">
+          Add your LinkedIn profile</a></p>
+        <p>Location: Your City, Country</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Your Name · Data Analyst Portfolio</p>
+  </footer>
+</body>
+</html>
